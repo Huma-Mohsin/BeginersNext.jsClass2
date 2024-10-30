@@ -3,3 +3,22 @@ In Next.js, a component is like a building block for your webpage. Think of it a
 Each component is usually a separate file with its own code. By breaking a webpage into components, you can re-use and organize your code easily. For example, if you have a header component, you can use it on every page without rewriting the code each time.
 
 So, components help you build complex web pages by combining small, reusable pieces of code that each handle a specific part of the page.
+
+--------------------------------------------------------------------------------------------------
+
+
+In Next.js, certain conventions help keep components organized and code readable. Here are the key conventions:
+
+File Naming: Components are usually named in PascalCase (like MyComponent.js), where each word starts with a capital letter. This helps distinguish components from other files.
+
+Folder Structure: Components are often stored in a components folder at the root of the project, like project-root/components/Header.js. This makes it easy to find and manage components.
+
+Separate Files: Each component typically has its own file. This keeps the code modular and allows for easier maintenance.
+
+Exporting Components:
+
+Named Export for reusable components that may be imported alongside others in a file.
+Default Export if the file contains only one main component.
+Functional Components: Components in Next.js are often written as functional components (e.g., const MyComponent = () => { ... }). They work well with React hooks and are simpler to read and test.
+
+Use of Props: Components should be reusable and often accept props (parameters) to customize them. This makes it easy to reuse the same component with different data.
