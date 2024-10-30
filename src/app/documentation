@@ -1,0 +1,5 @@
+In Next.js, a component is like a building block for your webpage. Think of it as a mini piece of a website—like a button, a header, or a navigation bar—that you can create once and use in many places.
+
+Each component is usually a separate file with its own code. By breaking a webpage into components, you can re-use and organize your code easily. For example, if you have a header component, you can use it on every page without rewriting the code each time.
+
+So, components help you build complex web pages by combining small, reusable pieces of code that each handle a specific part of the page.
