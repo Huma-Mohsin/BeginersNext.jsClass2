@@ -1,14 +1,20 @@
-
 function Button(){
-    return(
+    return (
         <div>
-
-<button className="bg-blue-500 p-6 text-white text-lg rounded-lg" >
-  Submit
-</button>
+            <button 
+                style={{
+                    backgroundColor: '#3b82f6',
+                    padding: '1.5rem',
+                    color: 'white',
+                    fontSize: '1.125rem',
+                    borderRadius: '0.5rem',
+                    border: 'none',
+                }}
+            >
+                Submit
+            </button>
         </div>
-    )
-
+    );
 }
- 
-export default Button
+
+export default Button;

@@ -1,6 +1,7 @@
 import Button from "../../Components/Button";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header"
+import HeroSection from "../../Components/Hero";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         Learning Websites
       </h1>
 <Header/>
+      <HeroSection/>
       <br/>
       <Button/> {/**Render */}
       <Footer/>
